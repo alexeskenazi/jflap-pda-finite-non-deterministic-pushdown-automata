@@ -44,7 +44,6 @@ The implementation requires non-determinism to:
 ## Files
 
 - `eskenazi_p4.jff`: Final implementation of the PDA
-- `eskenazi_p4bad.jff`: Development version (for reference)
 - `eskenazi_p4_tests.txt`: Comprehensive test cases
 
 ## Test Cases
@@ -58,3 +57,17 @@ The test file includes:
 ### Test File Format
 - One test case per line
 - Cases before "BEGING_REJECT" should be accepted
+- Cases after "BEGING_REJECT" should be rejected
+
+## Usage
+
+1. Open `eskenazi_p4.jff` in JFLAP 7.1
+2. Load test inputs from `eskenazi_p4_tests.txt`
+3. Run the automaton to verify acceptance/rejection
+4. Use step mode to visualize state transitions
+
+## Assumptions
+
+- Input always contains exactly one '#'
+- All strings are composed of only 'x' and 'y' characters
+- Input strings follow the format a#b where a,b ∈ {x,y}*
