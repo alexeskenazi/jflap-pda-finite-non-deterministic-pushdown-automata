@@ -71,3 +71,8 @@ The test file includes:
 - Input always contains exactly one '#'
 - All strings are composed of only 'x' and 'y' characters
 - Input strings follow the format a#b where a,b ∈ {x,y}*
+ 
+![case1](case1.png)
+
+
+![case2](case2.png)
