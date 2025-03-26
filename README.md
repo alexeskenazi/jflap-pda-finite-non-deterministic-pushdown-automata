@@ -1,10 +1,10 @@
-# JFLAP PDA Project: String Comparison Automaton
+# JFLAP Push Down Automata (PDA): String Comparison Automaton
 
 This project implements a non-deterministic Pushdown Automaton (PDA) using JFLAP to compare two strings separated by '#'. 
 
 ## Problem Description
 
-Formally, the PDA accepts the language:
+Formally, the PDA (Push Down Automata) accepts the language:
 { a#b | a, b ∈ {x, y}* such that a ≠ b and ai = bi for some i, 1 ≤ i ≤ min(|a|, |b|) }
 
 The automaton handles two main cases:
